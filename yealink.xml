@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<YealinkIPPhoneCustomScreenSaver
-    LineSpacing = "3"                        
-    InsertImageLineNum = "5"    >      
-
-<SystemTime Size="Large" horizontalAlign="right" verticalAlign="top" Color="white">show</SystemTime>
-
-<StatusIcons
-horizontalAlign="middle"
-verticalAlign="top">show</StatusIcons>
-
-<Line Size="large" Align="Center" Color="white">Welcome Home...</Line>
-
+<YealinkIPPhoneImageMenu
+Beep = “yes”
+Timeout = “120”
+LockIn = “no”
+mode="regular ">
 <Image
 verticalAlign="middle"
 horizontalAlign="left"
->https://raw.githubusercontent.com/databoxsolutions/yealink/main/dc.png/Image>
-<URIList base="https://raw.githubusercontent.com/databoxsolutions/yealink/main/">
+>http://10.3.6.129:8080/XML/new/ImageMenu.jpg</Image>
+<URIList base="http://10.3.6.129:8080/XML/new/">
 <URI key="#">TextMenu.xml</URI>
 <URI key="0">Directory.xml</URI>
 <URI key="1">InputScreen.xml</URI>
 </URIList>
-</YealinkIPPhoneCustomScreenSaver>
+</YealinkIPPhoneImageMenu>
