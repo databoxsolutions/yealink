@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<YealinkIPPhoneCustomScreenSaver
+    LineSpacing = "3"                        
+    InsertImageLineNum = "5"    >      
+
+<SystemTime Size="Large" horizontalAlign="right" verticalAlign="top" Color="white">show</SystemTime>
+
+<StatusIcons
+horizontalAlign="middle"
+verticalAlign="top">show</StatusIcons>
+
+<Line Size="large" Align="Center" Color="white">Hello World</Line>
+
+<Image
+horizontalAlign="middle"
+verticalAlign="middle"  height="80" width="100">yealinkt54w.png</Image>
+
+
+</YealinkIPPhoneCustomScreenSaver>
