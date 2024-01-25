@@ -12,8 +12,12 @@ verticalAlign="top">show</StatusIcons>
 <Line Size="large" Align="Center" Color="white">Welcome Home...</Line>
 
 <Image
-horizontalAlign="middle"
-verticalAlign="middle"  height="80" width="100">yealinkt54w.png</Image>
-
-
+verticalAlign="middle"
+horizontalAlign="left"
+>https://raw.githubusercontent.com/databoxsolutions/yealink/main/dc.png/Image>
+<URIList base="https://raw.githubusercontent.com/databoxsolutions/yealink/main/">
+<URI key="#">TextMenu.xml</URI>
+<URI key="0">Directory.xml</URI>
+<URI key="1">InputScreen.xml</URI>
+</URIList>
 </YealinkIPPhoneCustomScreenSaver>
