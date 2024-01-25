@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<YealinkIPPhoneImageMenu
-Beep = “yes”
-Timeout = “120”
-LockIn = “no”
-mode="regular ">
-<Image
-verticalAlign="middle"
-horizontalAlign="left"
->https://raw.githubusercontent.com/databoxsolutions/yealink/main/dc.png</Image>
-<URIList base="https://raw.githubusercontent.com/databoxsolutions/yealink/main/">
-<URI key="#">TextMenu.xml</URI>
-<URI key="0">Directory.xml</URI>
-<URI key="1">InputScreen.xml</URI>
-</URIList>
-</YealinkIPPhoneImageMenu>
+<**TextMenu
+defaultIndex = "integer"
+style = "numbered/none"
+Beep = "yes/no"
+Timeout = "integer"
+refresh=“refresh time“ url=“URI“
+cancelAction = "URI"
+>
+<Title >Menu Title</Title>
+<MenuItem>
+<Prompt>Prompt</Prompt>
+<URI>URI</URI>
+<Dial>Number to dial</Dial >
+<Selection>Selection</Selection>
+</MenuItem>
+<!--Additional menu items may be added (up to 30) -->
+<!--Additional Softkey items may be added (up to 6) -->
+</**TextMenu>
