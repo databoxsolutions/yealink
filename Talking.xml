@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Talking>
+  <Enable>
+    <Key Type="EndCall"/>
+    <Key Type="Transfer"/>
+    <Key Type="Hold"/>
+    <Key Type="Conference"/>
+  </Enable>
+</Talking>
